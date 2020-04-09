@@ -1,5 +1,6 @@
-def main():
-  #print('You rolled a die')
+import random as rnd
 
-if __name__== "__main__":
-  main()
+def main():
+  num = rnd.randint(0)
+  return num
+print(main())
